@@ -2,7 +2,7 @@ import express from 'express';
 import { HfInference } from '@huggingface/inference';
 
 const app = express();
-const hf = new HfInference('tu_token_de_acceso');
+const hf = new HfInference('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');
 const PORT = 3000;
 
 app.use(express.json());
